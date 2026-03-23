@@ -1,0 +1,103 @@
+.certs {
+  padding: 6rem 5rem;
+}
+
+.certs-container {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.certs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cert-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cert-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.cert-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #1F70C1, #054ADA);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cert-ibm {
+  color: white;
+  font-weight: 800;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.cert-info {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.cert-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.cert-issuer {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.cert-status {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 100px;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.cert-status--done {
+  background: rgba(52, 211, 153, 0.1);
+  color: #34D399;
+}
+
+.cert-status--progress {
+  background: rgba(249, 115, 22, 0.1);
+  color: var(--orange);
+}
+
+@media (max-width: 900px) {
+  .certs {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .certs {
+    padding: 3rem 1.5rem;
+  }
+
+  .cert-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
+}

@@ -1,0 +1,25 @@
+/* Section base styles */
+.section-tag {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  font-family: var(--font-sans);
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 3.5rem;
+}
+
+.section-title span {
+  color: var(--orange);
+}
+
+/* Dark section bg */
+.bg-dark {
+  background: var(--bg2);
+}

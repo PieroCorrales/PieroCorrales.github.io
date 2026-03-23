@@ -1,0 +1,25 @@
+:root {
+  /* Background */
+  --bg: #06060A;
+  --bg2: #0D0D14;
+  --surface: #12121C;
+  --surface2: #1A1A28;
+
+  /* Accents */
+  --blue: #3B82F6;
+  --blue-dim: #1D4ED8;
+  --orange: #F97316;
+  --orange-dim: #EA580C;
+
+  /* Text */
+  --text: #F1F5F9;
+  --muted: #64748B;
+  --muted2: #94A3B8;
+
+  /* Border */
+  --border: rgba(255, 255, 255, 0.07);
+
+  /* Font families */
+  --font-sans: 'Outfit', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+}

@@ -11,7 +11,7 @@ const SKILLS = [
     ),
     title: 'Frontend',
     color: 'blue',
-    items: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
+    items: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'React', 'Angular', 'Vue.js', 'Astro'],
   },
   {
     icon: (

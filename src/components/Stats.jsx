@@ -3,7 +3,7 @@ import './Stats.css'
 const STATS = [
   { value: '3+', label: 'Proyectos completos' },
   { value: '3', label: 'Certificaciones IBM' },
-  { value: '6+', label: 'Tecnologías' },
+  { value: '10+', label: 'Tecnologías' },
   { value: '∞', label: 'Ganas de aprender' },
 ]
 

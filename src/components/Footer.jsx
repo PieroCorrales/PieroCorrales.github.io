@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <p className="footer-copy">© 2026 Piero Corrales Paucar</p>
-        <p className="footer-credit">Diseñado & desarrollado con pasión</p>
+        <p className="footer-credit">Diseñado con asesoramiento de Claude Code</p>
       </div>
     </footer>
   )
